@@ -1,0 +1,14 @@
+[
+  {
+    "id": "ID_555752",
+    "email": "demo@gmail.com",
+    "password": "Password123@",
+    "avatar": "http://localhost:3000/images/avatars/ID_555752.svg",
+    "name": "Nima",
+    "background": "http://localhost:3000/images/backgrounds/ID_555752-1700967034088-558414523.jpg",
+    "clock_style": {
+      "font_family": "Chakra Petch",
+      "color": "#ff0080"
+    }
+  }
+]
