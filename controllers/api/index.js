@@ -114,7 +114,7 @@ const changeUsersBG = tryCatch(async (req, res) => {
     // Send a response to the client
     return res.status(201).json({
       status: "success",
-      url: `http://localhost:3000/images/backgrounds/${filename}`,
+      url: `https://pheonix-backend-385c2453f5c2.herokuapp.com/images/backgrounds/${filename}`,
     });
   } catch (error) {
     console.error("Error changing background:", error.message);

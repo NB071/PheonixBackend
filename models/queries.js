@@ -140,7 +140,7 @@ function changeUsersBackground(userId, fileName) {
   // Changing the background on file
   jsonObjUsers[
     userIndex
-  ].background = `http://localhost:3000/images/backgrounds/${fileName}`;
+  ].background = `https://pheonix-backend-385c2453f5c2.herokuapp.com/images/backgrounds/${fileName}`;
 
   fs.writeFile(usersPath, JSON.stringify(jsonObjUsers, null, 2), () =>
     console.log("error on writing the json file")
